@@ -7,7 +7,7 @@
 #define MAX_TEXT 6553600
 FILE* f1;
 FILE* f2;
-char *ttys="/dev/pts/0";
+char *ttys="console";
 char ccc[4096];
 int main() {
     Display *dpy;
